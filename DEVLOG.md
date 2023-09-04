@@ -1,2 +1,2 @@
-### Day 1 - 2
+### Day 1 - 3
 Spent creating layouts and plans for site
