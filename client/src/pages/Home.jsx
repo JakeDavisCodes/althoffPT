@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from 'react-router-dom';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
 const Home = () => {
   return (
@@ -11,4 +11,4 @@ const Home = () => {
    );
 };
 
-export default Home
+ReactDOM.createRoot(document.getElementById("root")).render(Home)

@@ -1,11 +1,17 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const buildPath = path.resolve(__dirname, 'dist');
 
 module.exports = {
   mode: 'development',
-  entry: path.join(__dirname, '/client/src/index.jsx'),
+  entry: {
+    home: '/client/src/pages/Home.jsx',
+    services: '/client/src/pages/Services.jsx',
+    error: '/client/src/pages/ErrorPage.jsx'
+},
   output: {
     path: path.join(__dirname, '/client/dist'),
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
     publicPath: '/',
   },
   devtool: 'source-map',
@@ -25,4 +31,5 @@ module.exports = {
       },
     ],
   },
+
 };

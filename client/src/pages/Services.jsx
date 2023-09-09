@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
 const Services = () => {
   return (
@@ -8,4 +9,4 @@ const Services = () => {
    );
 };
 
-export default Services
+ReactDOM.createRoot(document.getElementById("root")).render(Services)
