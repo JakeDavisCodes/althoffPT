@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 const ErrorPage = () => {
-  const error = useRouteError();
   console.error(error);
 
   return (
@@ -16,4 +15,4 @@ const ErrorPage = () => {
   );
 }
 
-ReactDOM.createRoot(document.getElementById("root")).render(ErrorPage)
+export default ErrorPage;

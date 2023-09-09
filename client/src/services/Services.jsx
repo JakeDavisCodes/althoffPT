@@ -9,4 +9,4 @@ const Services = () => {
    );
 };
 
-ReactDOM.createRoot(document.getElementById("root")).render(Services)
+export default Services;

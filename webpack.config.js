@@ -5,9 +5,9 @@ const buildPath = path.resolve(__dirname, 'dist');
 module.exports = {
   mode: 'development',
   entry: {
-    home: '/client/src/pages/Home.jsx',
-    services: '/client/src/pages/Services.jsx',
-    error: '/client/src/pages/ErrorPage.jsx'
+    home: '/client/src/home/index.jsx',
+    services: '/client/src/services/index.jsx',
+    error: '/client/src/error/index.jsx'
 },
   output: {
     path: path.join(__dirname, '/client/dist'),

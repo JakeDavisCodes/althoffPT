@@ -5,10 +5,10 @@ const Home = () => {
   return (
     <div>
       Home
-      <Link to="/home">Home</Link>
-      <Link to="/services">Services</Link>
+      <li href="/home">Home</li>
+      <li href="/services">Services</li>
     </div>
    );
 };
 
-ReactDOM.createRoot(document.getElementById("root")).render(Home)
+export default Home
