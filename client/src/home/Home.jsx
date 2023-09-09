@@ -1,12 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import Header from '../components/Header.jsx'
 
 const Home = () => {
   return (
     <div>
-      Home
-      <li href="/home">Home</li>
-      <li href="/services">Services</li>
+      <Header />
     </div>
    );
 };
