@@ -10,8 +10,9 @@ app.use(express.json());
 
 app.use(express.static(path.join(__dirname, '../'))); // SERVE CLIENT FILES
 
-app.get('/', (req, res) => res.redirect(301, '/home'))
-
+app.get('/', function(req, res){
+  res.sendFile(path.join(__dirname,'../home.html'));
+});
 app.get('/home', function(req, res){
   res.sendFile(path.join(__dirname,'../home.html'));
 });
@@ -23,6 +24,7 @@ app.get('/error', function(req, res){
 });
 
 app.use(function(req, res, next) {
+  console.log('404')
   res.status(404);
 
   // respond with html page

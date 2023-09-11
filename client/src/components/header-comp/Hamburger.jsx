@@ -14,4 +14,3 @@ const Hamburger = ({pages}) => {
 }
 
 export default Hamburger;
-
