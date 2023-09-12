@@ -6,7 +6,7 @@ const Hamburger = ({pages}) => {
     <div id="hamburger">
       <label>
         <input type="checkbox"/>
-        <span class="menu"> <span class="hamburger"></span></span>
+        <span className="menu"> <span className="hamburger"></span></span>
         <Menu pages={pages} />
       </label>
     </div>

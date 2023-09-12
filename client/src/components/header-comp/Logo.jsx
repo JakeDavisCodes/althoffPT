@@ -5,10 +5,11 @@ const tempStyles= {
 }
 
 const goHome = () => {
-  const loc = window.location.href.split('/').pop().join('/')
+  var loc = window.location.href.split('/')
+  loc.pop()
+  loc = loc.join('/')
 
-  alert(loc)
-  console.log(loc)
+  location.assign(loc + '/home')
 }
 
 const Logo = () => {
