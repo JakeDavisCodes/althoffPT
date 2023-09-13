@@ -1,6 +1,16 @@
+*{ font-family: 'Victor Mono', monospace;}
 *, *:before, *:after
 { box-sizing: border-box; }
 
 html {
   overflow-x: hidden;
+}
+.big-text-wrapper {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

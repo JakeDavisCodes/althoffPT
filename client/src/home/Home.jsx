@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div id="home">
       <Header />
-      <span className="main-text-wrap">
+      <span className="big-text-wrapper">
         <p id="main-text">STRENGTH IN ARMS REACH</p>
       </span>
     </div>

@@ -6,11 +6,13 @@ const ErrorPage = () => {
   return (
     <div id="error-page">
       <Header />
-      <h1>Oops!</h1>
-      <p>Sorry, an unexpected error has occurred.</p>
-      <p>
-        <i>404</i>
-      </p>
+      <span className="big-text-wrapper">
+        <h1 className="oops">Oops!</h1>
+        <p className="desc">Sorry, an unexpected error has occurred.</p>
+        <p>
+          <i className="error-code">404</i>
+        </p>
+      </span>
     </div>
   );
 }
