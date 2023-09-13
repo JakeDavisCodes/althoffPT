@@ -1,9 +1,5 @@
 import React from 'react';
 
-const tempStyles= {
-  width: '100px',
-}
-
 const goHome = () => {
   var loc = window.location.href.split('/')
   loc.pop()
@@ -15,8 +11,8 @@ const goHome = () => {
 const Logo = () => {
   return (
     <img
+      id="logo"
       onClick={goHome}
-      style={tempStyles}
       src='logo_ex.png'
     />
   );

@@ -2,6 +2,20 @@ html {
   background-color: grey;
 }
 
+#logo {
+  cursor: pointer;
+  width: 100px;
+}
+
+#header {
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  top: 0px;
+  display: flex;
+  align-items: center;
+}
+
 label .menu {
   position: absolute;
   right: -100px;

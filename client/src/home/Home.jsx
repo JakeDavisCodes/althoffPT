@@ -3,8 +3,11 @@ import Header from '../components/Header.jsx'
 
 const Home = () => {
   return (
-    <div>
+    <div id="home">
       <Header />
+      <span className="main-text-wrap">
+        <p id="main-text">STRENGTH IN ARMS REACH</p>
+      </span>
     </div>
    );
 };

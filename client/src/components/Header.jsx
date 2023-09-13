@@ -4,23 +4,23 @@ import Hamburger from './header-comp/Hamburger.jsx'
 
 const pages = [
   {
-    name: 'Home',
+    name: 'HOME',
     href: '/home'
   },
   {
-    name: 'Method',
+    name: 'METHOD',
     href: '/method'
   },
   {
-    name: 'Services',
+    name: 'SERVICES',
     href: '/services'
   },
   {
-    name: 'Blog',
+    name: 'BLOG',
     href: '/blog'
   },
   {
-    name: 'Contact',
+    name: 'CONTACT',
     href: '/contact'
   },
 ]
